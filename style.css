@@ -373,13 +373,13 @@ header {
    background:
       url(/image/line1.png), url(/image/line3.png),
       radial-gradient(circle at 13% 30%,
-         rgb(67, 38, 41), transparent 600px),
+         rgb(117, 40, 48), transparent 600px),
       
       radial-gradient(circle at 90% 10%,
          rgb(36, 77, 90), transparent 500px),
       radial-gradient(circle at 60% 60%, rgb(21, 43, 88), transparent 500px),
       radial-gradient(circle at 98% 98%,
-         rgba(7, 4, 49, 0.499), transparent 200px);
+         rgba(30, 24, 102, 0.499), transparent 200px);
    background-repeat: no-repeat;
    background-position: left bottom, right top;
 
