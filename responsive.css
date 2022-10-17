@@ -302,8 +302,8 @@
       background:
          url(/image/line1.png), url(/image/line3.png),
          radial-gradient(circle at 13% 50%, rgb(64, 26, 30), transparent 600px),
-         radial-gradient(circle at 90% 15%, rgb(36, 77, 90), transparent 500px),
-         radial-gradient(circle at 60% 60%, rgb(107, 92, 25), transparent 600px),
+         radial-gradient(circle at 90% 15%, rgb(63, 143, 168), transparent 500px),
+         radial-gradient(circle at 60% 60%, rgb(132, 190, 83), transparent 600px),
          radial-gradient(circle at 98% 98%, rgba(44, 0, 4, 0.486), transparent 200px);
       background-repeat: no-repeat;
       background-position: left bottom, right top;
@@ -483,10 +483,10 @@
                      rgb(64, 26, 30), transparent 600px),
                   /* radial-gradient(circle at center, rgb(69, 63, 14) 0% 80%, #0000 81% 100%); */
                   radial-gradient(circle at 90% 10%,
-                     rgb(36, 77, 90), transparent 500px),
-                  radial-gradient(circle at 60% 60%, rgb(88, 76, 21), transparent 500px),
+                     rgba(40, 159, 180, 0.347), transparent 500px),
+                  radial-gradient(circle at 60% 60%, rgba(51, 141, 75, 0.573), transparent 500px),
                   radial-gradient(circle at 98% 98%,
-                     rgba(44, 0, 4, 0.486), transparent 200px);
+                     rgba(66, 9, 13, 0.486), transparent 200px);
                background-repeat: no-repeat;
                background-position: left bottom, top;
                background-size: 980px;
