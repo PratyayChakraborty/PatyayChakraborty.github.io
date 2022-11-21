@@ -795,10 +795,39 @@
    width: 100%;
    z-index: 99;
 } */
-/* 
-@media screen and (min-width:1000)and (max-width: 1300px) {
+
+@media(max-width:460px) {
    
-   .navbar-brand site-logo>span{
-      font-size: 13px;
+ #logo_name {
+
+      font-size:15px ;
+
+
    }
-} */
+.col-lg-2 col-md-2 col-2{
+width: 50px;
+
+
+}
+.header-right{
+
+width: 50px;
+
+}
+.header-btn{
+   /* width: 50px; */
+}
+
+ .theme-btn resume-btn{
+   width: 50px;
+
+ }
+
+
+ /* .slide-sub-title>h5>img{
+   display: flex;
+justify-content: center;
+
+
+ } */
+}
