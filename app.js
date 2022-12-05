@@ -17,3 +17,12 @@ document.querySelector(".menu-close").addEventListener("click", function () {
 //       $('.wpo-site-header').removeClass('fixed')
 //    }
 // })
+
+document.getElementById("resumehoo").addEventListener("click",re_fun);
+
+document.getElementById("resumehoo1").addEventListener("click",re_fun);
+
+function re_fun() { 
+
+   window.location.href = "https://drive.google.com/file/d/19Pvl7XdGm6eeHpYNGD02X9J73Ksle-Xq/view?usp=share_link";
+}
