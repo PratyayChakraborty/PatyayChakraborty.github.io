@@ -783,11 +783,12 @@ header {
    content: "";
    height: 96%;
    left: 2px;
-   opacity: .85;
+   opacity: 1;
    position: absolute;
    top: 2px;
    width: 98%;
    z-index: -1;
+   
 }
 
 .wpo-about-area .wpo-about-exprience-wrap .client,
@@ -834,6 +835,7 @@ header {
    top: 0;
    width: 100%;
    z-index: -2;
+   
 }
 
 .wpo-about-area .wpo-about-content .wpo-about-title,
@@ -1043,6 +1045,7 @@ header {
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
@@ -1087,7 +1090,7 @@ header {
 
 .portfolio .portfolio-wrap::before {
    content: "";
-   background: rgba(0, 0, 0, 0.6);
+   background: rgba(0, 0, 0, 0.733);
    position: absolute;
    left: 0px;
    right: 0px;
@@ -1095,7 +1098,7 @@ header {
    bottom: 0px;
    transition: all ease-in-out 0.3s;
    z-index: 2;
-   opacity: 0.7;
+   opacity: 1;
 }
 .portfolio .portfolio-wrap:hover::before {
    top: 0;
@@ -1103,6 +1106,7 @@ header {
    right: 0;
    bottom: 0;
    opacity: 1;
+   
 }
 
 
@@ -1148,11 +1152,13 @@ header {
 
 .portfolio .portfolio-wrap:hover .portfolio-info {
    opacity: 1;
+   
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
    color: #63eda3;
-   opacity: .9;
+   opacity: 1;
+   
 }
 
 /* .float-right.color-fg-muted{
