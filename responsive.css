@@ -247,7 +247,7 @@
    .wpo-header-style-1 .wpo-site-header .header-right .theme-btn,
    .wpo-header-style-1 .wpo-site-header .header-right .view-cart-btn {
       margin-right: -15px;
-      padding: 10px 20px 10px 20px;
+      padding: 8px 15px 8px 15px;
    }
 
    .wpo-site-header #navbar>ul>li>a {
@@ -470,7 +470,7 @@
       z-index: 99;
    }
    .theme-btn, .view-cart-btn {
-      font-size: 18px;
+      font-size: 16px;
       font-size: 1.2rem;
    }
    .fa-arrow-down{
@@ -598,7 +598,11 @@
    }
    .theme-btn.resume-btn{
       width: 100px;
+      /* margin-right: 10px ; */
    }
+      /* .theme-btn{
+         margin-left: 10px;
+      } */
 }
 
 
@@ -815,11 +819,14 @@ width: 50px;
 
 }
 .header-btn{
-   /* width: 50px; */
+   width: 68px;
 }
 
- .theme-btn resume-btn{
-   width: 50px;
+ .theme-btn.resume-btn{
+   width: 90px;
+   padding: 0;
+   margin: 0
+   
 
  }
 
