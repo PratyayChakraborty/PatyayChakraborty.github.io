@@ -583,26 +583,40 @@
                   <div class="col col-lg-6 col-md-12 col-12">
                      <div class="wpo-contact-form">
                         <h2>Get In Touch</h2>
-                        <form class="contact-validation-active">
+                        <form action="https://formsubmit.co/pratyaychakraborty024@gmail.com" method="POST" class="contact-validation-active">
                            <div class="row">
                               <div class="col col-lg-12 col-12">
-                                 <div class="form-field"><input type="text" name="name" placeholder="Your Name"
-                                       value=""></div>
+                                 <div class="form-field"><input type="text" name="Name" placeholder="Your Name"
+                                       required value=""></div>
                               </div>
                               <div class="col col-lg-12 col-12">
-                                 <div class="form-field"><input type="email" name="email" placeholder="Your Email"
-                                       value="">
+                                 <div class="form-field"><input type="email" name="email" placeholder="Email Address"
+                                    required value="">
                                  </div>
                               </div>
                               <div class="col col-lg-12 col-12">
-                                 <div class="form-field"><input type="phone" name="phone" placeholder="Your phone"
-                                       value="">
+                                 <div class="form-field"><input type="phone" name="Phone No." placeholder="Your phone"
+                                    required value="">
                                  </div>
                               </div>
-                              <div class="col col-lg-12 col-12"><textarea type="text" name="message"
+                              <div class="col col-lg-12 col-12">
+                                 <div class="form-field"><input type="text" name="Subject" placeholder="Subject"
+                                    required value="">
+                                 </div>
+                              </div>
+                              <div class="col col-lg-12 col-12"><textarea type="text" name="Message" required
                                     placeholder="Message"></textarea></div>
                            </div>
-                           <div class="submit-area"><button type="submit" class="theme-btn" onclick=sendEmail()>Submit Now</button></div>
+                           <div class="submit-area"><button type="submit" class="theme-btn" >Submit Now</button></div>
+                           <input type="hidden" name="_captcha" value="false">
+                           <!-- <input type="hidden" name="_next" value="https://pratyaychakraborty.github.io/PatyayChakraborty.github.io/thanks.html"> -->
+                           <input type="hidden" name="_template" value="box">
+                           <!-- <input type="hidden" name="_autoresponse" value="
+                           Thank you for connecting. I will get in touch with you soon."+"\n"
+                           
+                           Regards,
+                           Pratyay Chakraborty"
+                           > -->
                         </form>
                      </div>
                   </div>
@@ -731,18 +745,10 @@
 <script src="https://smtpjs.com/v3/smtp.js"></script>
  <script type="text/javascript">
     function sendEmail() {
-      // Email.send({
-      //   Host: "smtp.gmail.com",
-      //   Username: "pratyaychakraborty024@gmail.com",
-      //   Password: "",
-      //   To: 'pratyaychakraborty024@gmail.com',
-      //   From: "pratyaychakraborty6065@gmail.com",
-      //   Subject: "Sending Email using javascript",
-      //   Body: "Well that was easy!!",
-      // })
-      //   .then(function (message) {
-          alert("please sent a mail sent")
-      //   });
+      
+          alert("We will get in touch soon..")
+          
+      
     }
   </script>
 </html>

@@ -584,10 +584,12 @@
    }
    ::-webkit-scrollbar{
       height: 1px;
+      width: 1px;
    }
 
    ::-webkit-scrollbar-track{
-      /* background: rgb(255, 255, 255); */
+      background: rgb(32, 78, 72);
+      width: 5px;
    }
    ::-webkit-scrollbar-thumb {
       background: #ffbd39;
