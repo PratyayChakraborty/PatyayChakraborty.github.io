@@ -979,7 +979,7 @@ header {
    justify-content: center !important;
 }
 
-/* .work {
+/* /* .work {
    background-size: cover;
    background-position: center center;
    background-repeat: no-repeat;
@@ -998,7 +998,7 @@ header {
    -webkit-transition: 0.3s;
    -o-transition: 0.3s;
    transition: 0.3s;
-} */ */
+} */  */
 
 .col-padding {
    padding: 6px !important;
@@ -1028,7 +1028,7 @@ header {
    position: relative;
    overflow: hidden;
    z-index: 1;
-   background: rgba(0, 0, 0, .9);
+   background: rgba(0, 0, 0, .2);
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
@@ -1090,7 +1090,7 @@ header {
 
 .portfolio .portfolio-wrap::before {
    content: "";
-   background: rgba(0, 0, 0, 0.733);
+   background: rgba(10, 10, 10, 0.733);
    position: absolute;
    left: 0px;
    right: 0px;
