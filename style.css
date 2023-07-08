@@ -932,7 +932,15 @@ header {
 .wpo-about-area-s2 .wpo-about-content .wpo-about-funfact .grid:nth-child(6) {
    background: linear-gradient(180deg, rgb(146, 146, 146), rgba(31, 30, 28, .6) 67.59%);
 }
-
+.wpo-about-area .wpo-about-content .wpo-about-funfact .grid:nth-child(10) {
+   background: linear-gradient(180deg, rgb(34, 118, 170), rgba(28, 27, 26, 0.253) 67.59%);
+}
+.wpo-about-area .wpo-about-content .wpo-about-funfact .grid:nth-child(11) {
+   background: linear-gradient(180deg, rgb(113, 170, 34), rgba(28, 27, 26, 0.253) 67.59%);
+}
+.wpo-about-area .wpo-about-content .wpo-about-funfact .grid:nth-child(12) {
+   background: linear-gradient(180deg, rgb(243, 135, 58), rgba(28, 27, 26, 0.253) 67.59%);
+}
 .logo-img {
    background-color: rgb(255, 255, 255);
    -webkit-mask: url(./image/hibernate-icon.svg) no-repeat center;
